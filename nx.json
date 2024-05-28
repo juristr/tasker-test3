@@ -2,12 +2,8 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "build": {
-      "dependsOn": [
-        "^build"
-      ],
-      "outputs": [
-        "{projectRoot}/.next"
-      ],
+      "dependsOn": ["^build"],
+      "outputs": ["{projectRoot}/.next"],
       "cache": true
     },
     "e2e": {
@@ -18,6 +14,9 @@
     },
     "test": {
       "cache": true
+    },
+    "start": {
+      "dependsOn": ["build"]
     }
   },
   "defaultBase": "main"
