@@ -2,8 +2,12 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["{projectRoot}/.next"],
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "{projectRoot}/.next"
+      ],
       "cache": true
     },
     "e2e": {
@@ -16,8 +20,11 @@
       "cache": true
     },
     "start": {
-      "dependsOn": ["build"]
+      "dependsOn": [
+        "build"
+      ]
     }
   },
-  "defaultBase": "main"
+  "defaultBase": "main",
+  "nxCloudAccessToken": "NzNiNWYxN2UtODViYS00Yzk0LTgxZmUtYTY3NmJjZjA1Y2U3fHJlYWQtd3JpdGU="
 }
