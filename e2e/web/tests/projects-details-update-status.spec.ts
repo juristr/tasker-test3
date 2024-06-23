@@ -8,6 +8,11 @@ test('Projects Details: Update project status', async ({ page }) => {
 
   await setStatus(page, 'at_risk');
 
+  // make this test fail 70% of the time
+  if (Math.random() > 0.7) {
+    expect(true).toBeFalsy();
+  }
+
   await page.waitForTimeout(process.env.CI ? 5000 : 1000);
   await page.reload();
 

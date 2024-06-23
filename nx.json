@@ -28,5 +28,6 @@
         "targetName": "playwright:e2e"
       }
     }
-  ]
+  ],
+  "retries": "1"
 }

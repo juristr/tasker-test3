@@ -9,7 +9,7 @@ export default defineConfig({
   outputDir: 'test-results',
   testDir: './tests',
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
+  // retries: process.env.CI ? 2 : 0,
   workers: 1,
   reporter: 'html',
   use: {
