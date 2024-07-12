@@ -1,0 +1,116 @@
+[NX Daemon Server] - 2024-06-23T10:55:27.967Z - Started listening on: /var/folders/80/10y49pwj2cj0b92h2m92v_w40000gn/T/c4093d86dd11ed8a5e1a/d.sock
+[NX Daemon Server] - 2024-06-23T10:55:27.969Z - [WATCHER]: Subscribed to changes within: /Users/juri/Downloads/tmp/tasker-test (native)
+[NX Daemon Server] - 2024-06-23T10:55:27.975Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-23T10:55:27.976Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-23T10:55:27.977Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-23T10:55:27.977Z - [REQUEST]: Client Request for Project Graph Received
+Plugin listed in `nx.json` not found: @nx/playwright/plugin
+[NX Daemon Server] - 2024-06-23T10:55:28.213Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Could not load plugin @nx/playwright/plugin
+LoadPluginError: Could not load plugin @nx/playwright/plugin
+    at loadNxPluginAsync (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:207:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 1)
+    at async loadNxPlugins (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/internal-api.js:84:9)
+    at async getPlugins (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/plugins.js:14:33)
+    at async getCachedSerializedProjectGraphPromise (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:35:25)
+    at async handleRequestProjectGraph (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js:130:16)
+    at async handleMessage (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js:89:9)
+    at async /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js:55:9
+[NX Daemon Server] - 2024-06-23T10:55:28.214Z - Done responding to the client null
+[NX Daemon Server] - 2024-06-23T10:55:28.214Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 236. Response time: 1.
+[NX Daemon Server] - 2024-06-23T10:55:28.214Z - Time taken for 'Load Nx Plugin: /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 8.255167007446289ms
+[NX Daemon Server] - 2024-06-23T10:55:28.214Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-23T10:55:28.223Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-23T10:55:28.223Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-23T10:55:28.223Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-23T10:55:28.223Z - [REQUEST]: Client Request for Project Graph Received
+Plugin listed in `nx.json` not found: @nx/playwright/plugin
+[NX Daemon Server] - 2024-06-23T10:55:28.224Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Could not load plugin @nx/playwright/plugin
+LoadPluginError: Could not load plugin @nx/playwright/plugin
+    at loadNxPluginAsync (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:207:15)
+    at loadNxPlugin (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:180:9)
+    at loadNxPlugins (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/internal-api.js:79:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getPlugins (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/plugins.js:14:33)
+    at async getCachedSerializedProjectGraphPromise (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:35:25)
+    at async handleRequestProjectGraph (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js:130:16)
+    at async handleMessage (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js:89:9)
+    at async /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js:55:9
+[NX Daemon Server] - 2024-06-23T10:55:28.224Z - Done responding to the client null
+[NX Daemon Server] - 2024-06-23T10:55:28.224Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-23T10:55:28.224Z - Time taken for 'Load Nx Plugin: /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.7742500305175781ms
+[NX Daemon Server] - 2024-06-23T10:55:36.983Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-23T10:55:36.984Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-23T10:55:36.984Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-23T10:55:36.985Z - [REQUEST]: Client Request for Project Graph Received
+Plugin listed in `nx.json` not found: @nx/playwright/plugin
+[NX Daemon Server] - 2024-06-23T10:55:36.986Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Could not load plugin @nx/playwright/plugin
+LoadPluginError: Could not load plugin @nx/playwright/plugin
+    at loadNxPluginAsync (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:207:15)
+    at loadNxPlugin (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:180:9)
+    at loadNxPlugins (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/internal-api.js:79:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getPlugins (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/plugins.js:14:33)
+    at async getCachedSerializedProjectGraphPromise (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:35:25)
+    at async handleRequestProjectGraph (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js:130:16)
+    at async handleMessage (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js:89:9)
+    at async /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js:55:9
+[NX Daemon Server] - 2024-06-23T10:55:36.986Z - Done responding to the client null
+[NX Daemon Server] - 2024-06-23T10:55:36.986Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-23T10:55:36.986Z - Time taken for 'Load Nx Plugin: /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.4926670789718628ms
+[NX Daemon Server] - 2024-06-23T10:55:36.990Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-23T10:55:43.574Z - [WATCHER]: _tmp_47480_5e3e9895e2c7d728e9a1cbb1bb71c944 was deleted
+[NX Daemon Server] - 2024-06-23T10:55:43.575Z - [WATCHER]: Processing file changes in outputs
+Plugin listed in `nx.json` not found: @nx/playwright/plugin
+/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:207
+        throw new error_types_1.LoadPluginError(moduleName, e);
+              ^
+
+LoadPluginError: Could not load plugin @nx/playwright/plugin
+    at loadNxPluginAsync (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:207:15)
+    at loadNxPlugin (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:180:9)
+    ... 2 lines matching cause stack trace ...
+    at async Timeout._onTimeout (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:84:63) {
+  plugin: '@nx/playwright/plugin',
+  [cause]: Error: Cannot find module '@nx/playwright/plugin'
+  Require stack:
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/index.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/command-line/run/executor-utils.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/devkit-internals.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/utils/assert-workspace-validity.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/build-project-graph.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/project-graph.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/utils/project-graph-utils.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js
+  - /Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/start.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1055:15)
+      at Function.resolve (node:internal/modules/helpers:136:19)
+      at getPluginPathAndName (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:141:30)
+      at loadNxPluginAsync (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:199:42)
+      at loadNxPlugin (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js:180:9)
+      at loadNxPlugins (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/internal-api.js:79:48)
+      at async getPlugins (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/plugins.js:14:33)
+      at async Timeout._onTimeout (/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:84:63) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/loader.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/plugins/index.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/command-line/run/executor-utils.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/devkit-internals.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/utils/assert-workspace-validity.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/build-project-graph.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/project-graph/project-graph.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/utils/project-graph-utils.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/server.js',
+      '/Users/juri/Downloads/tmp/tasker-test/node_modules/.pnpm/nx@19.3.0/node_modules/nx/src/daemon/server/start.js'
+    ]
+  }
+}
+
+Node.js v20.9.0

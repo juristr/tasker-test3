@@ -9,7 +9,7 @@ export default defineConfig({
   outputDir: 'test-results',
   testDir: './tests',
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
+  // retries: process.env.CI ? 2 : 0,
   workers: 1,
   reporter: 'html',
   use: {
@@ -33,7 +33,7 @@ export default defineConfig({
 
   webServer: {
     timeout: 30_000,
-    command: 'pnpm --filter "@tasker/web" start',
+    command: 'pnpm nx start @tasker/web',
     url: 'http://localhost:3000',
     reuseExistingServer: true,
   },
